@@ -1,1 +1,3 @@
 # potery
+
+Photo Gallery
