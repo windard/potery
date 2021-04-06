@@ -8001,9 +8001,9 @@
       var a = document.createElement('a');
       a.href = url;
       // a.download = url.split('.').pop();
-      // a.download = url.split('/').pop();
+      a.download = url.split('/').pop();
       a.target = '_blank';
-      // a.style.display = 'none';
+      a.style.display = 'none';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);      
